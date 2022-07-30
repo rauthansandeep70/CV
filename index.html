@@ -3,103 +3,333 @@
 
 <head>
   <meta charset="utf-8">
-  <title> Sandeep' personal website</title>
+  <title>pixel-studio</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- awesome font -->
+  <script src="https://kit.fontawesome.com/a59558aaa2.js" crossorigin="anonymous"></script>
+  <!-- css-file -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <section id="title">
+    <div class="container-fluid">
 
-  <table cellspacing="20">
-    <tr>
-      <td><img src="6.png" alt="profile picture"></td>
-      <td>
-        <h1>Sandeep Singh Rauthan</h1>
-        <p>
-          <em> Subject Matter Expert and Web developer </em>
-          <br>
-          Addrees- Rudraprayag uttarakhand 246475
-          <br>
-          <strong><a href="contact.html">contact</a></strong>
-        </p>
-      </td>
-    </tr>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Pixel Studio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  </table>
-  <hr>
-  <h2><strong>Skills</strong></h2>
-  <table>
-    <tr>
-      <td>HTML</td>
-      <td>🌟🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-      <td>JS</td>
-      <td>🌟🌟</td>
-    </tr>
-    <tr>
-      <td>Auto CAD</td>
-      <td>🌟🌟🌟🌟🌟</td>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why-us">WHY US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    </tr>
-    <tr>
-      <td>Math Type and Paint </td>
-      <td>🌟🌟🌟🌟🌟</td>
+      <!-- Title -->
+      <div class="row">
+        <div class="tittle-text col-lg-6">
+          <h1 class="big-heading">Best Image Editing.</h1>
+          <p class="heading-text">Mesmerize Everybody by Transforming Any Image in Minutes</p>
+          <button class="btn btn-light me-2" type="button">Start Trial </button>
+        </div>
 
-    </tr>
-  </table>
-<hr>
-  <h2>Work History</h2>
-  <table>
 
-    <tr>
-      <td><a href="https://economictimes.indiatimes.com/company/anutham-trainers-india-private-limited/U74900UR2016PTC001867">Anutham India Private Limited</a>, Dehradun, Uttarakhand.</td>
-      <td>2020-current</td>
-      <td>To solve student's doubts in efficient manner. Achieve the targets on
-        a daily basis. Manage the time effectively and efficiently.Be ready
-        to learn and to new challenges.</td>
-    </tr>
-    <tr>
-      <td><a href="chegg.com">Chegg India</a></td>
-      <td>2018-current</td>
-      <td> To provide quality and error free solutions.</td>
-    </tr>
-  </table>
+        <div class="col-lg-6">
+          <div id="top-slide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="best-photo" src="image/raw.jpg" alt="before">
+              </div>
+              <div class="carousel-item">
+                <img class="best-photo" src="image/cloth.jpg" alt="before">
+              </div>
+              <div class="carousel-item">
+                <img class="best-photo" src="image/change.jpg" alt="before">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#top-slide" data-bs-slide="prev">
+              <span class="moving carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#top-slide" data-bs-slide="next">
+              <span class="moving carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<hr>
-<h2>Education</h2>
-<ol>
-    <li>B.Tech 2013-17
-      <br>
-      Mechanical Engineering (7.5 CGPA)
-      <br>
-    <a href="https://gehu.ac.in/">Graphic Era Hill University</a> , Dehradun, Uttarakhand
-    </li>
-    <br>
-    <li>Intermediate (71%)
-      <br>
-      GOVT. I. C Agastyamuni, Rudraprayag, Uttarakhand
-    </li>
-    <br>
-    <li>High School (70%)
-      <br>
-      GOVT. I, C Sidhsaur, Rudraprayag, Uttarakhand
-    </li>
-  </ol>
-<hr>
-  <h2>Hobbies</h2>
-  <ul>
-    <li>Swimming</li>
-    <li>Running</li>
-    <li>Watching movies</li>
-    <li>Cricket</li>
-    <li>Chess</li>
-  </ul>
-  <hr>
+  <!-- why us -->
 
+  <section id="why-us">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="why-choose">Why Us</h2>
+          <p class="Motivation">Your Success is Our Motivation! Our Photo editing services is committed towards helping you and maximize you potential.</p>
+        </div>
+        <div class="about col-lg-6">
+          <ul>
+            <li>Team of seasoned professionals</li>
+            <li>Minimal turnaround time without affecting service quality</li>
+            <li>Transform images using the latest and most advanced technologies</li>
+            <li>No need to fix errors or rework</li>
+            <li>Finetune strategies and processes according to emerging industry trends</li>
+            <li>Constant support through multiple communication channels</li>
+            <li>Guarantee optimal security and privacy</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- qualities -->
+
+      <div class="qualities row">
+        <div class="skill col-lg-3">
+          <div class="skill-card card">
+            <div class="card-body">
+              <i class="icon fa-solid fa-user-tie fa-4x"></i>
+              <h3 class="skill-head">Trained professionals</h3>
+              <p>Skilled professionals using cutting-edge technologies and adopting the hottest trends</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="skill col-lg-3">
+          <div class="skill-card card">
+            <div class="card-body">
+              <i class="icon fa-solid fa-users-line fa-4x"></i>
+              <h3 class="skill-head">Excellent Customer Service</h3>
+              <p>A dedicated account manager for every client to meet project needs and deadlines</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="skill col-lg-3">
+          <div class="skill-card card">
+            <div class="card-body">
+              <i class="icon fa-solid fa-clock fa-4x"></i>
+              <h3 class="skill-head">Dedicated Manager</h3>
+              <p>
+              <p>Meet your requirements by getting relevant support without any hassle and delay</p>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="skill col-lg-3">
+          <div class="skill-card card">
+            <div class="card-body">
+              <i class="icon fa-solid fa-stopwatch fa-4x"></i>
+              <h3 class="skill-head">Fast Support</h3>
+              <p>Solve problems and meet requirements by availing multi-channel customer service.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our-SERVICES -->
+  <section id="our-services">
+    <div class="conatiner-fluid">
+      <h1 class="service-heading">Our Services</h1>
+      <p>Photo editing services customized according to precise project needs without escalating project costs</p>
+
+      <div id="services" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="skill col-lg-4">
+                <div class=" service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Image Multi Path</h3>
+                    <p>Alter color aspects of the entire image or specific parts of the image by getting superior image multi path services at an affordable rate.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Image Manipulation</h3>
+                    <p>
+                    <p>Make the transformed image look original and natural despite making desired changes by leveraging high-quality image manipulation services.</p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Removing white background</h3>
+                    <p>Transform existing images by adding contextual or multi-color backgrounds by getting customized white background removal services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Image Clipping Path</h3>
+                    <p>Isolate an element naturally by removing unwanted background and objects by availing of customized and affordable image clipping path services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Color correction & swapping</h3>
+                    <p>Display multiple versions of the same product effortlessly by getting high-quality color correction and swapping services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Making Shadow</h3>
+                    <p>Keep website visitors engaged by posting images with natural, altered, or enhanced shadows while removing background.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Resizing/Cropping</h3>
+                    <p>Alter the size of an image without impacting its look and appeal by getting customized image resizing/cropping services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Image Retouching</h3>
+                    <p>Make simple images compelling and mesmerizing in minutes by getting superior image retouching services.</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Jewellery Editing</h3>
+                    <p>Enhance the appeal and drive the sale of any piece of jewelry in a variety of ways by getting the best quality jewelry editing services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Image Enhancement & Toning</h3>
+                    <p>Transform any image dramatically by adding the perfect tone curve without putting in time and effort.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Real Estate Editing</h3>
+                    <p>Increase the market value of a property and impress potential buyers by getting flawless real estate photo editing services.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill col-lg-4">
+                <div class="service-card card">
+                  <div class="card-body">
+                    <h3 class="service-head">Wedding images</h3>
+                    <p>Mesmerize your family and friends showing them the perfect wedding pictures by getting affordable wedding image retouching and enhancement services.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#services" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#services" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- contacts -->
+  <section id="contacts">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <h1 class="navbar-brand">Pixel Studio</h1>
+        </div>
+        <div class="conatct-Details col-lg-4">
+          <h4>Registered Office</h4>
+          <h4>New Delhi NCR, 201010</h4>
+          <p>+91-7017195253 </p>
+          <p>Pixel.Studio@gmail.com</p>
+        </div>
+        <div class="col-lg-4">
+          <p>Pixel Studio has built a reputation by providing customized image editing services to both individual and enterprises customers. Our team of picture editors has experience and expertise in meeting varying client requirements with optimal
+            quality and minimal turnaround time.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="copyrights">
+    <div class="social-media">
+      <i class="social-icon fa-brands fa-facebook-f fa-2x"></i>
+      <i class="social-icon fa-brands fa-instagram fa-2x"></i>
+      <i class="social-icon fa-brands fa-twitter fa-2x"></i>
+      <i class="social-icon fa-brands fa-linkedin-in fa-2x"></i>
+    </div>
+    <p>Copyright 2021 - Website Managed By Sandeep</p>
+
+
+  </section>
 
 </body>
 
