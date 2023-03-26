@@ -1,152 +1,91 @@
 
-.best-photo {
-  width: 100%;
-  height: 500px;
-}
-.moving{
-  background-color: #E2DCC8;
-}
-
-/* container-fluid */
-
-/* navbar */
-.navbar{
-  padding: 1.5%;
-
-}
-.navbar-nav{
-color: #fff;
-}
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #100F0F;
+body{
+  font-family: 'Inter', sans-serif;
+  color: #ADADAD;
+  margin:0;
+  background-color: black;
+  }
+h1{
+    font-family: 'Prata', serif;
+    color: #fff;
+    font-weight:black;
+    font-size: 3.2rem;
 }
 
-.nav-item {
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-left: 20px;
-}
-
-
-/* tittle-section */
-#title {
-  padding: 3% 10% 6%;
-  background: #0078AA;
-  /* #3AB4F2 */
-}
-
-.tittle-text {
-  font-family: "Montserrat";
-  text-align: left;
-  color: #F1F1F1;
-  font-size: 1.5rem;
-  padding: 0 2%;
-}
-
-.big-heading {
-  font-family: 'Montserrat-bold', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: 7%;
-}
-.btn{
-  margin: 3% 0 3%;
-}
-
-
-/* why us-section */
-#why-us{
-  background-color: #fff;
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 400;
-  padding: 3% 10% 6%;
-  line-height: 2;
-  color: #8f8f8f;
-}
-.why-choose{
-  font-family: 'Montserrat-bold', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  color: #0078AA;
-  margin-bottom: 7%;
-}
-.Motivation
-{
-color: #3AB4F2;
-font-size: 1.2rem;
-}
-
-.skill-card{
-  text-align: center;
-  border: none;
-}
-.skill-head{
-color: #1F4690;
-}
-.icon{
-  color: #0078AA;
-}
-
-
-/* our-services */
-#our-services{
-  background-color: #1F4690;
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  padding-top: 3%;
-}
-.service-heading{
-  font-family: 'Montserrat-bold', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
+h2{
+  font-family: 'Prata', serif;
+  margin-top: 3%;
   margin-bottom: 2%;
-
-}
-#services{
-  padding: 3% 10% 3%;
-}
-.service-card{
-  background-color:  #1F4690;
-  color: #FEFBF6;
-  border: none;
-  text-align: left;
-}
-.service-head{
-  color: #FFE5B4;
-  font-weight: 900;
+  color: #fff;
+  word-spacing: 2;
 }
 
-/* conatcts */
-#contacts{
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 400;
-  text-align: left;
-  padding: 10% 8% 10%;
-  color:#8f8f8f;
-  line-height: 2;
+p{
+  line-height: 1.5;
 }
-.conatct-Details{
-  color:#0078AA;
-  font-size: 1.5rem;
-  font-weight: 900;
+.bigImage{
+  width: 95%;
+
 }
 
-/* copyrights */
-.social-icon{
-  margin: 3% 1% 3%;
+.logoIcon{
+  margin-left: -2.5%;
+  padding-left: 0;
 }
-#copyrights{
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 400;
+
+.navbar-brand{
+  font-family: 'Prata', serif;
+  color: #ADADAD;
+
+}
+.container-fluid{
+  margin: 2% 10% 2% 10%;
+}
+.nav-link{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ADADAD;
+  font-size: 1.1em;
+
+}
+.btn {
+  background: #FFED00;
+  background-image: -webkit-linear-gradient(top, #FFED00, #FFED00);
+  background-image: -moz-linear-gradient(top, #FFED00, #FFED00);
+  background-image: -ms-linear-gradient(top, #FFED00, #FFED00);
+  background-image: -o-linear-gradient(top, #FFED00, #FFED00);
+  background-image: linear-gradient(to bottom, #FFED00, #FFED00);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #black;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FDD36A;
+  background-image: -webkit-linear-gradient(top, #FDD36A, #FDD36A);
+  background-image: -moz-linear-gradient(top, #FDD36A, #FDD36A);
+  background-image: -ms-linear-gradient(top, #FDD36A, #FDD36A);
+  background-image: -o-linear-gradient(top, #FDD36A, #FDD36A);
+  background-image: linear-gradient(to bottom, #FDD36A, #FDD36A);
+  text-decoration: none;
+}
+
+.bigText{
+  margin-top: 0;
+}
+
+.greyColor{
+    background-color: #3C4048;
+}
+
+.paddingRequire{
+  padding: 5% 0;
+}
+.aligment{
   text-align: center;
-  padding: 2% 10% 2%;
-  color:#fff;
-    background-color: #0078AA;
 }
